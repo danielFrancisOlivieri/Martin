@@ -1,0 +1,233 @@
+<html>
+
+<head>
+  <title> Can Do Both </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<script src="typed/js/typed.js"></script>
+ <script type="text/javascript" src="sticker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style">
+
+ <script type="text/javascript" src="quizlib.js"></script>
+<link href="quizlib" rel="stylesheet" type="text/css"> </script>
+
+</head>
+
+<script type="text/javascript">
+    window.onload = function() {
+        Sticker.init('.sticker');
+    }
+
+    $(function(){
+        $("#subhead").typed({
+          strings: ["a page about one of the up and coming poets of our generation", "created by the guy who sleeps in the same room as him", "Enjoy."],
+          typeSpeed: 0, cursorChar: ""
+        });
+    });
+</script>
+
+<style>
+
+#one {
+  background-color: #e5392c;
+  height: 120px;
+
+}
+
+#two {
+  background-color: #1057a9;
+  height: 120px;
+}
+
+#stick
+{
+margin: auto;
+padding: 10px;
+
+}
+
+#firstRow
+{
+
+}
+#secondJumbo
+{
+  background-color: #b86233;
+}
+
+#thirdJumbo
+{
+  background-color: #f8481e;
+}
+.block
+{
+    border-radius: 55px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    margin: 2px;
+    width: auto;
+}
+
+.sticker
+{
+  display: inline-block;
+  width: 270px;
+  height: 270px
+   padding: inherit;
+}
+#stick .sticker-img
+{
+
+  background-image: url("http://kenyoncollegian.com/wp-content/uploads/2016/09/JUSTIN-700x350.jpg");
+background-position: -145px 6px;
+}
+#stick2 .sticker-img
+{
+  background-image: url("http://2.bp.blogspot.com/-CqbJvTIFnG8/TcVHaVu6CsI/AAAAAAAAAvg/uVA20mLlXsM/s1600/Robin+Poster.jpg");
+  background-position: -200px -55px;
+}
+#stick3 .sticker-img
+{
+  background-image: url("http://www.clashmusic.com/sites/default/files/field/image/Prince.jpg");
+  background-position: -220px -55px;
+}
+
+#stick4 .sticker-img
+{
+  background-image: url("http://www.gpb.org/sites/www.gpb.org/files/styles/redesign_800x450/public/blogs/images/poetry_out_loud.png?itok=I2kxND0T");
+  background-position: -80px -55px;
+}
+
+#stick5 .sticker-img
+{
+    background-image: url("https://pbs.twimg.com/profile_images/767879603977191425/29zfZY6I.jpg");
+    background-position: -120px -100px;
+}
+.example-1 .sticker-shadow
+{
+        opacity: 0.6;
+}
+
+.jumbotron
+{
+  background-color: #03dc8b;
+}
+
+body
+{
+  background-color: #72afbf;
+  color: white;
+  font-family: Times New Roman;
+}
+
+p
+{
+  text-align: center;
+}
+
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #0f80e2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+button
+{
+  margin: auto;
+}
+
+
+</style>
+
+<script>
+
+poems = [
+  "yerk",
+  "spurks",
+  "Grburgle"
+]
+
+
+function poemGenerator ()
+{
+
+  var poem = poems[0];
+  return poem;
+
+  function aFunction() {
+    var jsText = poemGenerator();
+    document.getElementById("poem").innerHTML = "\"" + jsText +"\"";
+}
+}
+
+
+</script>
+
+<body>
+<div class = "jumbotron text-center">
+<h1>  Justin Martin</h1>
+<p id = "subhead">  </p>
+
+<div class = "row">
+  <div class="sticker example-1" id = "stick"></div>
+</div>
+</div>
+<jumbotron id = "secondJumbo">
+<div class = "container">
+  <div class = "jumbotron" id = "thirdJumbo">
+  <div class = "row" id= "firstRow">
+  <p>
+    Justin Martin is a poet, activist, and pun enthusiest currently attending Kenyon college.
+    When he isn't busy defending the rights of people with disability or discussing the ins and outs of classical Islam, he enjoys watching anime and staying up all night long.
+  </p>
+  </div>
+</div>
+<div class = "row">
+
+</div>
+
+</div>
+</jumbotron>
+<div class = "container">
+  <jumbotron>
+<div class = "row">
+ <div class="sticker example-1" id = "stick2"></div> </a>
+<a href= "http://www.thisweeknews.com/content/stories/hilliard/news/2015/02/03/darby-high-school-outspoken-senior-is-unafraid-to-share-his-views.html"><div class="sticker example-1" id = "stick3"></div> </a>
+<a href = "http://justinmartinwrites.tumblr.com/"><div class="sticker example-1" id = "stick4"></div> </a>
+<a href = "https://twitter.com/jmartinwrites?lang=en"> <div class="sticker example-1" id = "stick5"></div> </a>
+</div>
+</jumbotron>
+</div>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
